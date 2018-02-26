@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a5f10a0f-0825-46eb-bce2-9d06f3135a2a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/data/FileLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/data/InvertedIndex.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/index/salida.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/output/query1_concurrent_results.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/output/query2_concurrent_results.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/output/query3_concurrent_results.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/output/results.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/src/com/javferna/packtpub/mastering/irsystem/common/ContentMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/src/com/javferna/packtpub/mastering/irsystem/common/Document.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/src/com/javferna/packtpub/mastering/irsystem/common/QueryResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/src/com/javferna/packtpub/mastering/irsystem/common/Token.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/src/com/javferna/packtpub/mastering/irsystem/common/Utils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/src/com/javferna/packtpub/mastering/irsystem/concurrent/ConcurrentData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/src/com/javferna/packtpub/mastering/irsystem/concurrent/ConcurrentFileLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/src/com/javferna/packtpub/mastering/irsystem/concurrent/ConcurrentInvertedIndex.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/src/com/javferna/packtpub/mastering/irsystem/concurrent/ConcurrentMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/src/com/javferna/packtpub/mastering/irsystem/concurrent/ConcurrentSearch.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/src/com/javferna/packtpub/mastering/irsystem/serial/SerialData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/src/com/javferna/packtpub/mastering/irsystem/serial/SerialFileLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/src/com/javferna/packtpub/mastering/irsystem/serial/SerialInvertedIndex.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/src/com/javferna/packtpub/mastering/irsystem/serial/SerialMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/src/com/javferna/packtpub/mastering/irsystem/serial/SerialSearch.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C8-Chapter08/NumericalSummarizationRetail/src/com/javferna/packtpub/mastering/numericalSummarization/common/Invoice.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C8-Chapter08/NumericalSummarizationRetail/src/com/javferna/packtpub/mastering/numericalSummarization/common/Record.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C8-Chapter08/NumericalSummarizationRetail/src/com/javferna/packtpub/mastering/numericalSummarization/concurrent/data/ConcurrentDataLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C8-Chapter08/NumericalSummarizationRetail/src/com/javferna/packtpub/mastering/numericalSummarization/concurrent/data/ConcurrentStatistics.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C8-Chapter08/NumericalSummarizationRetail/src/com/javferna/packtpub/mastering/numericalSummarization/concurrent/main/ConcurrentMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C8-Chapter08/NumericalSummarizationRetail/src/com/javferna/packtpub/mastering/numericalSummarization/main/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C8-Chapter08/NumericalSummarizationRetail/src/com/javferna/packtpub/mastering/numericalSummarization/serial/data/SerialDataLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C8-Chapter08/NumericalSummarizationRetail/src/com/javferna/packtpub/mastering/numericalSummarization/serial/data/SerialStatistics.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C8-Chapter08/NumericalSummarizationRetail/src/com/javferna/packtpub/mastering/numericalSummarization/serial/main/SerialMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter02/C2-FileSearch/src/com/javferna/packtpub/mastering/filesearch/main/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter02/C2-FileSearch/src/com/javferna/packtpub/mastering/filesearch/parallel/group/ParallelGroupFileSearch.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter02/C2-FileSearch/src/com/javferna/packtpub/mastering/filesearch/parallel/group/ParallelGroupFileTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter02/C2-FileSearch/src/com/javferna/packtpub/mastering/filesearch/serial/SerialFileSearch.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter02/C2-FileSearch/src/com/javferna/packtpub/mastering/filesearch/utils/Result.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter02/C2-MatrixMultiplier/src/com/javferna/packtpub/mastering/matrixmultiplier/main/ParallelGroupMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter02/C2-MatrixMultiplier/src/com/javferna/packtpub/mastering/matrixmultiplier/main/ParallelIndividualMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter02/C2-MatrixMultiplier/src/com/javferna/packtpub/mastering/matrixmultiplier/main/ParallelRowMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter02/C2-MatrixMultiplier/src/com/javferna/packtpub/mastering/matrixmultiplier/main/SerialMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter02/C2-MatrixMultiplier/src/com/javferna/packtpub/mastering/matrixmultiplier/parallel/group/GroupMultiplierTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter02/C2-MatrixMultiplier/src/com/javferna/packtpub/mastering/matrixmultiplier/parallel/group/ParallelGroupMultiplier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter02/C2-MatrixMultiplier/src/com/javferna/packtpub/mastering/matrixmultiplier/parallel/individual/IndividualMultiplierTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter02/C2-MatrixMultiplier/src/com/javferna/packtpub/mastering/matrixmultiplier/parallel/individual/ParallelIndividualMultiplier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter02/C2-MatrixMultiplier/src/com/javferna/packtpub/mastering/matrixmultiplier/parallel/row/ParallelRowMultiplier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter02/C2-MatrixMultiplier/src/com/javferna/packtpub/mastering/matrixmultiplier/parallel/row/RowMultiplierTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter02/C2-MatrixMultiplier/src/com/javferna/packtpub/mastering/matrixmultiplier/serial/SerialMultiplier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter02/C2-MatrixMultiplier/src/com/javferna/packtpub/mastering/matrixmultiplier/util/MatrixGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter03/C3-NearestNeighbors/data/bank.data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter03/C3-NearestNeighbors/data/bank.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter03/C3-NearestNeighbors/src/com/javferna/packtpub/mastering/knn/data/BankMarketing.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter03/C3-NearestNeighbors/src/com/javferna/packtpub/mastering/knn/data/Distance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter03/C3-NearestNeighbors/src/com/javferna/packtpub/mastering/knn/data/Sample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter03/C3-NearestNeighbors/src/com/javferna/packtpub/mastering/knn/distances/EuclideanDistanceCalculator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter03/C3-NearestNeighbors/src/com/javferna/packtpub/mastering/knn/loader/BankMarketingLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter03/C3-NearestNeighbors/src/com/javferna/packtpub/mastering/knn/main/ParallelGroupMainSort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter03/C3-NearestNeighbors/src/com/javferna/packtpub/mastering/knn/main/ParallelGrouplMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter03/C3-NearestNeighbors/src/com/javferna/packtpub/mastering/knn/main/ParallelIndividualMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter03/C3-NearestNeighbors/src/com/javferna/packtpub/mastering/knn/main/ParallelIndividualMainSort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter03/C3-NearestNeighbors/src/com/javferna/packtpub/mastering/knn/main/SerialMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter03/C3-NearestNeighbors/src/com/javferna/packtpub/mastering/knn/parallel/group/GroupDistanceTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter03/C3-NearestNeighbors/src/com/javferna/packtpub/mastering/knn/parallel/group/KnnClassifierParallelGroup.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter03/C3-NearestNeighbors/src/com/javferna/packtpub/mastering/knn/parallel/individual/IndividualDistanceTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter03/C3-NearestNeighbors/src/com/javferna/packtpub/mastering/knn/parallel/individual/KnnClassifierParallelIndividual.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter03/C3-NearestNeighbors/src/com/javferna/packtpub/mastering/knn/serial/KnnClassifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter06/C6-GeneticAlgorithm/data/kn57_dist.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter06/C6-GeneticAlgorithm/data/lau15_dist.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter06/C6-GeneticAlgorithm/src/com/javferna/packtpub/mastering/geneticAlgorithm/common/DataLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter06/C6-GeneticAlgorithm/src/com/javferna/packtpub/mastering/geneticAlgorithm/common/GeneticOperators.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter06/C6-GeneticAlgorithm/src/com/javferna/packtpub/mastering/geneticAlgorithm/common/Individual.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter06/C6-GeneticAlgorithm/src/com/javferna/packtpub/mastering/geneticAlgorithm/concurrent/ConcurrentGeneticAlgorithm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter06/C6-GeneticAlgorithm/src/com/javferna/packtpub/mastering/geneticAlgorithm/concurrent/ConcurrentGeneticTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter06/C6-GeneticAlgorithm/src/com/javferna/packtpub/mastering/geneticAlgorithm/concurrent/ConcurrentMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter06/C6-GeneticAlgorithm/src/com/javferna/packtpub/mastering/geneticAlgorithm/concurrent/GeneticPhaser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter06/C6-GeneticAlgorithm/src/com/javferna/packtpub/mastering/geneticAlgorithm/concurrent/SharedData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter06/C6-GeneticAlgorithm/src/com/javferna/packtpub/mastering/geneticAlgorithm/serial/SerialGeneticAlgorithm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter06/C6-GeneticAlgorithm/src/com/javferna/packtpub/mastering/geneticAlgorithm/serial/SerialMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter07/C7-KMeansClustering/src/com/javferna/packtpub/mastering/kmeans/common/data/DistanceMeasurer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter07/C7-KMeansClustering/src/com/javferna/packtpub/mastering/kmeans/common/data/VocabularyLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter07/C7-KMeansClustering/src/com/javferna/packtpub/mastering/kmeans/common/data/Word.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter07/C7-KMeansClustering/src/com/javferna/packtpub/mastering/kmeans/concurrent/AssignmentTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter07/C7-KMeansClustering/src/com/javferna/packtpub/mastering/kmeans/concurrent/ConcurrentKMeans.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter07/C7-KMeansClustering/src/com/javferna/packtpub/mastering/kmeans/concurrent/ConcurrentMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter07/C7-KMeansClustering/src/com/javferna/packtpub/mastering/kmeans/concurrent/UpdateTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter07/C7-KMeansClustering/src/com/javferna/packtpub/mastering/kmeans/serial/Document.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter07/C7-KMeansClustering/src/com/javferna/packtpub/mastering/kmeans/serial/DocumentCluster.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter07/C7-KMeansClustering/src/com/javferna/packtpub/mastering/kmeans/serial/DocumentLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter07/C7-KMeansClustering/src/com/javferna/packtpub/mastering/kmeans/serial/SerialKMeans.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter07/C7-KMeansClustering/src/com/javferna/packtpub/mastering/kmeans/serial/SerialMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter07/C7-MergeSort/src/com/javferna/packtpub/mastering/mergeSort/common/AmazonMetaData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter07/C7-MergeSort/src/com/javferna/packtpub/mastering/mergeSort/common/AmazonMetaDataLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter07/C7-MergeSort/src/com/javferna/packtpub/mastering/mergeSort/concurrent/ConcurrentMergeSort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter07/C7-MergeSort/src/com/javferna/packtpub/mastering/mergeSort/concurrent/ConcurrentMetaData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter07/C7-MergeSort/src/com/javferna/packtpub/mastering/mergeSort/concurrent/MergeSortTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter07/C7-MergeSort/src/com/javferna/packtpub/mastering/mergeSort/serial/SerialMergeSort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter07/C7-MergeSort/src/com/javferna/packtpub/mastering/mergeSort/serial/SerialMetaData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter07/C7-ObjectFilter/src/com/javferna/packtpub/mastering/objectFilter/common/data/CensusData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter07/C7-ObjectFilter/src/com/javferna/packtpub/mastering/objectFilter/common/data/CensusDataLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter07/C7-ObjectFilter/src/com/javferna/packtpub/mastering/objectFilter/common/data/Filter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter07/C7-ObjectFilter/src/com/javferna/packtpub/mastering/objectFilter/common/data/FilterData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter07/C7-ObjectFilter/src/com/javferna/packtpub/mastering/objectFilter/concurrent/ConcurrentMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter07/C7-ObjectFilter/src/com/javferna/packtpub/mastering/objectFilter/concurrent/ConcurrentSearch.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter07/C7-ObjectFilter/src/com/javferna/packtpub/mastering/objectFilter/concurrent/IndividualTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter07/C7-ObjectFilter/src/com/javferna/packtpub/mastering/objectFilter/concurrent/ListTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter07/C7-ObjectFilter/src/com/javferna/packtpub/mastering/objectFilter/concurrent/TaskManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter07/C7-ObjectFilter/src/com/javferna/packtpub/mastering/objectFilter/serial/SerialMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter07/C7-ObjectFilter/src/com/javferna/packtpub/mastering/objectFilter/serial/SerialSearch.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/C10-EventNotificationSystem/src/com/javferna/packtpub/mastering/eventNotification/consumer/Consumer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/C10-EventNotificationSystem/src/com/javferna/packtpub/mastering/eventNotification/data/Event.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/C10-EventNotificationSystem/src/com/javferna/packtpub/mastering/eventNotification/main/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/C10-EventNotificationSystem/src/com/javferna/packtpub/mastering/eventNotification/producer/Producer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/C10-NewsNotificationSystem/src/com/javferna/packtpub/mastering/newsNotification/consumer/Consumer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/C10-NewsNotificationSystem/src/com/javferna/packtpub/mastering/newsNotification/data/News.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/C10-NewsNotificationSystem/src/com/javferna/packtpub/mastering/newsNotification/main/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/C10-NewsNotificationSystem/src/com/javferna/packtpub/mastering/newsNotification/publisher/ConsumerData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/C10-NewsNotificationSystem/src/com/javferna/packtpub/mastering/newsNotification/publisher/MyPublisher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/C10-NewsNotificationSystem/src/com/javferna/packtpub/mastering/newsNotification/publisher/MySubscription.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter10/C10-NewsNotificationSystem/src/com/javferna/packtpub/mastering/newsNotification/publisher/PublisherTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/src/com/javferna/packtpub/book/mastering/structures/atomic/java8/ConcurrentMainAtomic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/src/com/javferna/packtpub/book/mastering/structures/collection/java8/ConcurrentCollectionMainAmazon.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/src/com/javferna/packtpub/book/mastering/structures/collection/java8/ConcurrentSpliteratorMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/src/com/javferna/packtpub/book/mastering/structures/collection/java8/SpliteratorTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/src/com/javferna/packtpub/book/mastering/structures/compare/Item.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/src/com/javferna/packtpub/book/mastering/structures/compare/blocking/BlockingConsumer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/src/com/javferna/packtpub/book/mastering/structures/compare/blocking/BlockingMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/src/com/javferna/packtpub/book/mastering/structures/compare/blocking/BlockingProducer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/src/com/javferna/packtpub/book/mastering/structures/compare/nonblocking/NonBlockingConsumer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/src/com/javferna/packtpub/book/mastering/structures/compare/nonblocking/NonBlockingMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/src/com/javferna/packtpub/book/mastering/structures/compare/nonblocking/NonBlockingProducer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/src/com/javferna/packtpub/book/mastering/structures/hash/data/BasicProduct.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/src/com/javferna/packtpub/book/mastering/structures/hash/data/BasicProductLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/src/com/javferna/packtpub/book/mastering/structures/hash/data/BasicReview.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/src/com/javferna/packtpub/book/mastering/structures/hash/data/ConcurrentLoaderAccumulator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/src/com/javferna/packtpub/book/mastering/structures/hash/data/ExtendedProduct.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/src/com/javferna/packtpub/book/mastering/structures/hash/data/IntermediateResultIndex.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/src/com/javferna/packtpub/book/mastering/structures/hash/data/Product.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/src/com/javferna/packtpub/book/mastering/structures/hash/data/ProductLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/src/com/javferna/packtpub/book/mastering/structures/hash/data/Review.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/src/com/javferna/packtpub/book/mastering/structures/hash/java8/ConcurrentHashMainAmazon.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/src/com/javferna/packtpub/book/mastering/structures/hash/java8/ConcurrentHashMainBasicAmazon.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/src/com/javferna/packtpub/book/mastering/structures/varhandle/VarHandleData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/src/com/javferna/packtpub/book/mastering/structures/varhandle/VarHandleMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/src/com/javferna/packtpub/book/mastering/structures/varhandle/VarHandleTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/output/results.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/barrier/BarrierMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/barrier/BarrierTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/barrier/FinishBarrierTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/common/CommonTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/completable/CompletableMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/completable/CompletableTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/completable/LoadTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/completable/SearchTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/completable/WriteTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/countdown/CountDownMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/countdown/CountDownTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/data/Product.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/data/ProductLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/data/Review.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/lock/LockMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/lock/LockTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/semaphore/SemaphoreMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/semaphore/SemaphoreTask.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/FileSearch/src/com/javferna/packtpub/mastering/filesearch/main/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/FileSearch/src/com/javferna/packtpub/mastering/filesearch/parallel/group/ParallelGroupFileSearch.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/FileSearch/src/com/javferna/packtpub/mastering/filesearch/parallel/group/ParallelGroupFileTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/FileSearch/src/com/javferna/packtpub/mastering/filesearch/serial/SerialFileSearch.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/FileSearch/src/com/javferna/packtpub/mastering/filesearch/utils/Result.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/MatrixMultiplier/src/com/javferna/packtpub/mastering/matrixmultiplier/main/ParallelGroupMain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/MatrixMultiplier/src/com/javferna/packtpub/mastering/matrixmultiplier/main/ParallelIndividualMain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/MatrixMultiplier/src/com/javferna/packtpub/mastering/matrixmultiplier/main/ParallelRowMain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/MatrixMultiplier/src/com/javferna/packtpub/mastering/matrixmultiplier/main/SerialMain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/MatrixMultiplier/src/com/javferna/packtpub/mastering/matrixmultiplier/parallel/group/GroupMultiplierTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/MatrixMultiplier/src/com/javferna/packtpub/mastering/matrixmultiplier/parallel/group/ParallelGroupMultiplier.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/MatrixMultiplier/src/com/javferna/packtpub/mastering/matrixmultiplier/parallel/individual/IndividualMultiplierTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/MatrixMultiplier/src/com/javferna/packtpub/mastering/matrixmultiplier/parallel/individual/ParallelIndividualMultiplier.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/MatrixMultiplier/src/com/javferna/packtpub/mastering/matrixmultiplier/parallel/row/ParallelRowMultiplier.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/MatrixMultiplier/src/com/javferna/packtpub/mastering/matrixmultiplier/parallel/row/RowMultiplierTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/MatrixMultiplier/src/com/javferna/packtpub/mastering/matrixmultiplier/serial/SerialMultiplier.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/MatrixMultiplier/src/com/javferna/packtpub/mastering/matrixmultiplier/util/MatrixGenerator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter03/NearestNeighbors/data/bank.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter03/NearestNeighbors/data/bank.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter03/NearestNeighbors/src/com/javferna/packtpub/mastering/knn/data/BankMarketing.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter03/NearestNeighbors/src/com/javferna/packtpub/mastering/knn/data/Distance.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter03/NearestNeighbors/src/com/javferna/packtpub/mastering/knn/data/Sample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter03/NearestNeighbors/src/com/javferna/packtpub/mastering/knn/distances/EuclideanDistanceCalculator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter03/NearestNeighbors/src/com/javferna/packtpub/mastering/knn/loader/BankMarketingLoader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter03/NearestNeighbors/src/com/javferna/packtpub/mastering/knn/main/ParallelGroupMainSort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter03/NearestNeighbors/src/com/javferna/packtpub/mastering/knn/main/ParallelGrouplMain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter03/NearestNeighbors/src/com/javferna/packtpub/mastering/knn/main/ParallelIndividualMain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter03/NearestNeighbors/src/com/javferna/packtpub/mastering/knn/main/ParallelIndividualMainSort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter03/NearestNeighbors/src/com/javferna/packtpub/mastering/knn/main/SerialMain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter03/NearestNeighbors/src/com/javferna/packtpub/mastering/knn/parallel/group/GroupDistanceTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter03/NearestNeighbors/src/com/javferna/packtpub/mastering/knn/parallel/group/KnnClassifierParallelGroup.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter03/NearestNeighbors/src/com/javferna/packtpub/mastering/knn/parallel/individual/IndividualDistanceTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter03/NearestNeighbors/src/com/javferna/packtpub/mastering/knn/parallel/individual/KnnClassifierParallelIndividual.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter03/NearestNeighbors/src/com/javferna/packtpub/mastering/knn/serial/KnnClassifier.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/GeneticAlgorithm/data/kn57_dist.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/GeneticAlgorithm/data/lau15_dist.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/GeneticAlgorithm/src/com/javferna/packtpub/mastering/geneticAlgorithm/common/DataLoader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/GeneticAlgorithm/src/com/javferna/packtpub/mastering/geneticAlgorithm/common/GeneticOperators.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/GeneticAlgorithm/src/com/javferna/packtpub/mastering/geneticAlgorithm/common/Individual.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/GeneticAlgorithm/src/com/javferna/packtpub/mastering/geneticAlgorithm/concurrent/ConcurrentGeneticAlgorithm.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/GeneticAlgorithm/src/com/javferna/packtpub/mastering/geneticAlgorithm/concurrent/ConcurrentGeneticTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/GeneticAlgorithm/src/com/javferna/packtpub/mastering/geneticAlgorithm/concurrent/ConcurrentMain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/GeneticAlgorithm/src/com/javferna/packtpub/mastering/geneticAlgorithm/concurrent/GeneticPhaser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/GeneticAlgorithm/src/com/javferna/packtpub/mastering/geneticAlgorithm/concurrent/SharedData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/GeneticAlgorithm/src/com/javferna/packtpub/mastering/geneticAlgorithm/serial/SerialGeneticAlgorithm.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/GeneticAlgorithm/src/com/javferna/packtpub/mastering/geneticAlgorithm/serial/SerialMain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter07/KMeansClustering/src/com/javferna/packtpub/mastering/kmeans/common/data/DistanceMeasurer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter07/KMeansClustering/src/com/javferna/packtpub/mastering/kmeans/common/data/VocabularyLoader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter07/KMeansClustering/src/com/javferna/packtpub/mastering/kmeans/common/data/Word.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter07/KMeansClustering/src/com/javferna/packtpub/mastering/kmeans/concurrent/AssignmentTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter07/KMeansClustering/src/com/javferna/packtpub/mastering/kmeans/concurrent/ConcurrentKMeans.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter07/KMeansClustering/src/com/javferna/packtpub/mastering/kmeans/concurrent/ConcurrentMain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter07/KMeansClustering/src/com/javferna/packtpub/mastering/kmeans/concurrent/UpdateTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter07/KMeansClustering/src/com/javferna/packtpub/mastering/kmeans/serial/Document.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter07/KMeansClustering/src/com/javferna/packtpub/mastering/kmeans/serial/DocumentCluster.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter07/KMeansClustering/src/com/javferna/packtpub/mastering/kmeans/serial/DocumentLoader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter07/KMeansClustering/src/com/javferna/packtpub/mastering/kmeans/serial/SerialKMeans.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter07/KMeansClustering/src/com/javferna/packtpub/mastering/kmeans/serial/SerialMain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter07/MergeSort/src/com/javferna/packtpub/mastering/mergeSort/common/AmazonMetaData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter07/MergeSort/src/com/javferna/packtpub/mastering/mergeSort/common/AmazonMetaDataLoader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter07/MergeSort/src/com/javferna/packtpub/mastering/mergeSort/concurrent/ConcurrentMergeSort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter07/MergeSort/src/com/javferna/packtpub/mastering/mergeSort/concurrent/ConcurrentMetaData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter07/MergeSort/src/com/javferna/packtpub/mastering/mergeSort/concurrent/MergeSortTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter07/MergeSort/src/com/javferna/packtpub/mastering/mergeSort/serial/SerialMergeSort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter07/MergeSort/src/com/javferna/packtpub/mastering/mergeSort/serial/SerialMetaData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter07/ObjectFilter/src/com/javferna/packtpub/mastering/objectFilter/common/data/CensusData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter07/ObjectFilter/src/com/javferna/packtpub/mastering/objectFilter/common/data/CensusDataLoader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter07/ObjectFilter/src/com/javferna/packtpub/mastering/objectFilter/common/data/Filter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter07/ObjectFilter/src/com/javferna/packtpub/mastering/objectFilter/common/data/FilterData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter07/ObjectFilter/src/com/javferna/packtpub/mastering/objectFilter/concurrent/ConcurrentMain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter07/ObjectFilter/src/com/javferna/packtpub/mastering/objectFilter/concurrent/ConcurrentSearch.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter07/ObjectFilter/src/com/javferna/packtpub/mastering/objectFilter/concurrent/IndividualTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter07/ObjectFilter/src/com/javferna/packtpub/mastering/objectFilter/concurrent/ListTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter07/ObjectFilter/src/com/javferna/packtpub/mastering/objectFilter/concurrent/TaskManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter07/ObjectFilter/src/com/javferna/packtpub/mastering/objectFilter/serial/SerialMain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter07/ObjectFilter/src/com/javferna/packtpub/mastering/objectFilter/serial/SerialSearch.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/data/FileLoader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/data/InvertedIndex.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/index/salida.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/output/query1_concurrent_results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/output/query2_concurrent_results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/output/query3_concurrent_results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/output/results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/src/com/javferna/packtpub/mastering/irsystem/common/ContentMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/src/com/javferna/packtpub/mastering/irsystem/common/Document.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/src/com/javferna/packtpub/mastering/irsystem/common/QueryResult.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/src/com/javferna/packtpub/mastering/irsystem/common/Token.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/src/com/javferna/packtpub/mastering/irsystem/common/Utils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/src/com/javferna/packtpub/mastering/irsystem/concurrent/ConcurrentData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/src/com/javferna/packtpub/mastering/irsystem/concurrent/ConcurrentFileLoader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/src/com/javferna/packtpub/mastering/irsystem/concurrent/ConcurrentInvertedIndex.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/src/com/javferna/packtpub/mastering/irsystem/concurrent/ConcurrentMain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/src/com/javferna/packtpub/mastering/irsystem/concurrent/ConcurrentSearch.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/src/com/javferna/packtpub/mastering/irsystem/serial/SerialData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/src/com/javferna/packtpub/mastering/irsystem/serial/SerialFileLoader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/src/com/javferna/packtpub/mastering/irsystem/serial/SerialInvertedIndex.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/src/com/javferna/packtpub/mastering/irsystem/serial/SerialMain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/src/com/javferna/packtpub/mastering/irsystem/serial/SerialSearch.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter08/NumericalSummarizationRetail/src/com/javferna/packtpub/mastering/numericalSummarization/common/Invoice.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter08/NumericalSummarizationRetail/src/com/javferna/packtpub/mastering/numericalSummarization/common/Record.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter08/NumericalSummarizationRetail/src/com/javferna/packtpub/mastering/numericalSummarization/concurrent/data/ConcurrentDataLoader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter08/NumericalSummarizationRetail/src/com/javferna/packtpub/mastering/numericalSummarization/concurrent/data/ConcurrentStatistics.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter08/NumericalSummarizationRetail/src/com/javferna/packtpub/mastering/numericalSummarization/concurrent/main/ConcurrentMain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter08/NumericalSummarizationRetail/src/com/javferna/packtpub/mastering/numericalSummarization/main/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter08/NumericalSummarizationRetail/src/com/javferna/packtpub/mastering/numericalSummarization/serial/data/SerialDataLoader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter08/NumericalSummarizationRetail/src/com/javferna/packtpub/mastering/numericalSummarization/serial/data/SerialStatistics.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter08/NumericalSummarizationRetail/src/com/javferna/packtpub/mastering/numericalSummarization/serial/main/SerialMain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter10/EventNotificationSystem/src/com/javferna/packtpub/mastering/eventNotification/consumer/Consumer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter10/EventNotificationSystem/src/com/javferna/packtpub/mastering/eventNotification/data/Event.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter10/EventNotificationSystem/src/com/javferna/packtpub/mastering/eventNotification/main/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter10/EventNotificationSystem/src/com/javferna/packtpub/mastering/eventNotification/producer/Producer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter10/NewsNotificationSystem/src/com/javferna/packtpub/mastering/newsNotification/consumer/Consumer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter10/NewsNotificationSystem/src/com/javferna/packtpub/mastering/newsNotification/data/News.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter10/NewsNotificationSystem/src/com/javferna/packtpub/mastering/newsNotification/main/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter10/NewsNotificationSystem/src/com/javferna/packtpub/mastering/newsNotification/publisher/ConsumerData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter10/NewsNotificationSystem/src/com/javferna/packtpub/mastering/newsNotification/publisher/MyPublisher.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter10/NewsNotificationSystem/src/com/javferna/packtpub/mastering/newsNotification/publisher/MySubscription.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter10/NewsNotificationSystem/src/com/javferna/packtpub/mastering/newsNotification/publisher/PublisherTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/src/com/javferna/packtpub/book/mastering/structures/atomic/java8/ConcurrentMainAtomic.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/src/com/javferna/packtpub/book/mastering/structures/collection/java8/ConcurrentCollectionMainAmazon.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/src/com/javferna/packtpub/book/mastering/structures/collection/java8/ConcurrentSpliteratorMain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/src/com/javferna/packtpub/book/mastering/structures/collection/java8/SpliteratorTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/src/com/javferna/packtpub/book/mastering/structures/compare/Item.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/src/com/javferna/packtpub/book/mastering/structures/compare/blocking/BlockingConsumer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/src/com/javferna/packtpub/book/mastering/structures/compare/blocking/BlockingMain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/src/com/javferna/packtpub/book/mastering/structures/compare/blocking/BlockingProducer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/src/com/javferna/packtpub/book/mastering/structures/compare/nonblocking/NonBlockingConsumer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/src/com/javferna/packtpub/book/mastering/structures/compare/nonblocking/NonBlockingMain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/src/com/javferna/packtpub/book/mastering/structures/compare/nonblocking/NonBlockingProducer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/src/com/javferna/packtpub/book/mastering/structures/hash/data/BasicProduct.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/src/com/javferna/packtpub/book/mastering/structures/hash/data/BasicProductLoader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/src/com/javferna/packtpub/book/mastering/structures/hash/data/BasicReview.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/src/com/javferna/packtpub/book/mastering/structures/hash/data/ConcurrentLoaderAccumulator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/src/com/javferna/packtpub/book/mastering/structures/hash/data/ExtendedProduct.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/src/com/javferna/packtpub/book/mastering/structures/hash/data/IntermediateResultIndex.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/src/com/javferna/packtpub/book/mastering/structures/hash/data/Product.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/src/com/javferna/packtpub/book/mastering/structures/hash/data/ProductLoader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/src/com/javferna/packtpub/book/mastering/structures/hash/data/Review.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/src/com/javferna/packtpub/book/mastering/structures/hash/java8/ConcurrentHashMainAmazon.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/src/com/javferna/packtpub/book/mastering/structures/hash/java8/ConcurrentHashMainBasicAmazon.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/src/com/javferna/packtpub/book/mastering/structures/varhandle/VarHandleData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/src/com/javferna/packtpub/book/mastering/structures/varhandle/VarHandleMain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/src/com/javferna/packtpub/book/mastering/structures/varhandle/VarHandleTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/output/results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/barrier/BarrierMain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/barrier/BarrierTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/barrier/FinishBarrierTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/common/CommonTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/completable/CompletableMain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/completable/CompletableTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/completable/LoadTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/completable/SearchTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/completable/WriteTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/countdown/CountDownMain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/countdown/CountDownTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/data/Product.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/data/ProductLoader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/data/Review.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/lock/LockMain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/lock/LockTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/semaphore/SemaphoreMain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/src/com/javferna/packtpub/book/mastering/synchronization/semaphore/SemaphoreTask.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter02/FileSearch/bin/com/javferna/packtpub/mastering/filesearch/main/Main.class" afterPath="$PROJECT_DIR$/Chapter02/C2-FileSearch/bin/com/javferna/packtpub/mastering/filesearch/main/Main.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter02/FileSearch/bin/com/javferna/packtpub/mastering/filesearch/parallel/group/ParallelGroupFileSearch.class" afterPath="$PROJECT_DIR$/Chapter02/C2-FileSearch/bin/com/javferna/packtpub/mastering/filesearch/parallel/group/ParallelGroupFileSearch.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter02/FileSearch/bin/com/javferna/packtpub/mastering/filesearch/parallel/group/ParallelGroupFileTask.class" afterPath="$PROJECT_DIR$/Chapter02/C2-FileSearch/bin/com/javferna/packtpub/mastering/filesearch/parallel/group/ParallelGroupFileTask.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter02/FileSearch/bin/com/javferna/packtpub/mastering/filesearch/serial/SerialFileSearch.class" afterPath="$PROJECT_DIR$/Chapter02/C2-FileSearch/bin/com/javferna/packtpub/mastering/filesearch/serial/SerialFileSearch.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter02/FileSearch/bin/com/javferna/packtpub/mastering/filesearch/utils/Result.class" afterPath="$PROJECT_DIR$/Chapter02/C2-FileSearch/bin/com/javferna/packtpub/mastering/filesearch/utils/Result.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter02/MatrixMultiplier/bin/com/javferna/packtpub/mastering/matrixmultiplier/main/ParallelGroupMain.class" afterPath="$PROJECT_DIR$/Chapter02/C2-MatrixMultiplier/bin/com/javferna/packtpub/mastering/matrixmultiplier/main/ParallelGroupMain.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter02/MatrixMultiplier/bin/com/javferna/packtpub/mastering/matrixmultiplier/main/ParallelIndividualMain.class" afterPath="$PROJECT_DIR$/Chapter02/C2-MatrixMultiplier/bin/com/javferna/packtpub/mastering/matrixmultiplier/main/ParallelIndividualMain.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter02/MatrixMultiplier/bin/com/javferna/packtpub/mastering/matrixmultiplier/main/ParallelRowMain.class" afterPath="$PROJECT_DIR$/Chapter02/C2-MatrixMultiplier/bin/com/javferna/packtpub/mastering/matrixmultiplier/main/ParallelRowMain.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter02/MatrixMultiplier/bin/com/javferna/packtpub/mastering/matrixmultiplier/main/SerialMain.class" afterPath="$PROJECT_DIR$/Chapter02/C2-MatrixMultiplier/bin/com/javferna/packtpub/mastering/matrixmultiplier/main/SerialMain.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter02/MatrixMultiplier/bin/com/javferna/packtpub/mastering/matrixmultiplier/parallel/group/GroupMultiplierTask.class" afterPath="$PROJECT_DIR$/Chapter02/C2-MatrixMultiplier/bin/com/javferna/packtpub/mastering/matrixmultiplier/parallel/group/GroupMultiplierTask.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter02/MatrixMultiplier/bin/com/javferna/packtpub/mastering/matrixmultiplier/parallel/group/ParallelGroupMultiplier.class" afterPath="$PROJECT_DIR$/Chapter02/C2-MatrixMultiplier/bin/com/javferna/packtpub/mastering/matrixmultiplier/parallel/group/ParallelGroupMultiplier.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter02/MatrixMultiplier/bin/com/javferna/packtpub/mastering/matrixmultiplier/parallel/individual/IndividualMultiplierTask.class" afterPath="$PROJECT_DIR$/Chapter02/C2-MatrixMultiplier/bin/com/javferna/packtpub/mastering/matrixmultiplier/parallel/individual/IndividualMultiplierTask.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter02/MatrixMultiplier/bin/com/javferna/packtpub/mastering/matrixmultiplier/parallel/individual/ParallelIndividualMultiplier.class" afterPath="$PROJECT_DIR$/Chapter02/C2-MatrixMultiplier/bin/com/javferna/packtpub/mastering/matrixmultiplier/parallel/individual/ParallelIndividualMultiplier.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter02/MatrixMultiplier/bin/com/javferna/packtpub/mastering/matrixmultiplier/parallel/row/ParallelRowMultiplier.class" afterPath="$PROJECT_DIR$/Chapter02/C2-MatrixMultiplier/bin/com/javferna/packtpub/mastering/matrixmultiplier/parallel/row/ParallelRowMultiplier.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter02/MatrixMultiplier/bin/com/javferna/packtpub/mastering/matrixmultiplier/parallel/row/RowMultiplierTask.class" afterPath="$PROJECT_DIR$/Chapter02/C2-MatrixMultiplier/bin/com/javferna/packtpub/mastering/matrixmultiplier/parallel/row/RowMultiplierTask.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter02/MatrixMultiplier/bin/com/javferna/packtpub/mastering/matrixmultiplier/serial/SerialMultiplier.class" afterPath="$PROJECT_DIR$/Chapter02/C2-MatrixMultiplier/bin/com/javferna/packtpub/mastering/matrixmultiplier/serial/SerialMultiplier.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter02/MatrixMultiplier/bin/com/javferna/packtpub/mastering/matrixmultiplier/util/MatrixGenerator.class" afterPath="$PROJECT_DIR$/Chapter02/C2-MatrixMultiplier/bin/com/javferna/packtpub/mastering/matrixmultiplier/util/MatrixGenerator.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter03/NearestNeighbors/bin/com/javferna/packtpub/mastering/knn/data/BankMarketing.class" afterPath="$PROJECT_DIR$/Chapter03/C3-NearestNeighbors/bin/com/javferna/packtpub/mastering/knn/data/BankMarketing.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter03/NearestNeighbors/bin/com/javferna/packtpub/mastering/knn/data/Distance.class" afterPath="$PROJECT_DIR$/Chapter03/C3-NearestNeighbors/bin/com/javferna/packtpub/mastering/knn/data/Distance.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter03/NearestNeighbors/bin/com/javferna/packtpub/mastering/knn/data/Sample.class" afterPath="$PROJECT_DIR$/Chapter03/C3-NearestNeighbors/bin/com/javferna/packtpub/mastering/knn/data/Sample.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter03/NearestNeighbors/bin/com/javferna/packtpub/mastering/knn/distances/EuclideanDistanceCalculator.class" afterPath="$PROJECT_DIR$/Chapter03/C3-NearestNeighbors/bin/com/javferna/packtpub/mastering/knn/distances/EuclideanDistanceCalculator.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter03/NearestNeighbors/bin/com/javferna/packtpub/mastering/knn/loader/BankMarketingLoader.class" afterPath="$PROJECT_DIR$/Chapter03/C3-NearestNeighbors/bin/com/javferna/packtpub/mastering/knn/loader/BankMarketingLoader.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter03/NearestNeighbors/bin/com/javferna/packtpub/mastering/knn/main/ParallelGroupMainSort.class" afterPath="$PROJECT_DIR$/Chapter03/C3-NearestNeighbors/bin/com/javferna/packtpub/mastering/knn/main/ParallelGroupMainSort.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter03/NearestNeighbors/bin/com/javferna/packtpub/mastering/knn/main/ParallelGrouplMain.class" afterPath="$PROJECT_DIR$/Chapter03/C3-NearestNeighbors/bin/com/javferna/packtpub/mastering/knn/main/ParallelGrouplMain.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter03/NearestNeighbors/bin/com/javferna/packtpub/mastering/knn/main/ParallelIndividualMain.class" afterPath="$PROJECT_DIR$/Chapter03/C3-NearestNeighbors/bin/com/javferna/packtpub/mastering/knn/main/ParallelIndividualMain.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter03/NearestNeighbors/bin/com/javferna/packtpub/mastering/knn/main/ParallelIndividualMainSort.class" afterPath="$PROJECT_DIR$/Chapter03/C3-NearestNeighbors/bin/com/javferna/packtpub/mastering/knn/main/ParallelIndividualMainSort.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter03/NearestNeighbors/bin/com/javferna/packtpub/mastering/knn/main/SerialMain.class" afterPath="$PROJECT_DIR$/Chapter03/C3-NearestNeighbors/bin/com/javferna/packtpub/mastering/knn/main/SerialMain.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter03/NearestNeighbors/bin/com/javferna/packtpub/mastering/knn/parallel/group/GroupDistanceTask.class" afterPath="$PROJECT_DIR$/Chapter03/C3-NearestNeighbors/bin/com/javferna/packtpub/mastering/knn/parallel/group/GroupDistanceTask.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter03/NearestNeighbors/bin/com/javferna/packtpub/mastering/knn/parallel/group/KnnClassifierParallelGroup.class" afterPath="$PROJECT_DIR$/Chapter03/C3-NearestNeighbors/bin/com/javferna/packtpub/mastering/knn/parallel/group/KnnClassifierParallelGroup.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter03/NearestNeighbors/bin/com/javferna/packtpub/mastering/knn/parallel/individual/IndividualDistanceTask.class" afterPath="$PROJECT_DIR$/Chapter03/C3-NearestNeighbors/bin/com/javferna/packtpub/mastering/knn/parallel/individual/IndividualDistanceTask.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter03/NearestNeighbors/bin/com/javferna/packtpub/mastering/knn/parallel/individual/KnnClassifierParallelIndividual.class" afterPath="$PROJECT_DIR$/Chapter03/C3-NearestNeighbors/bin/com/javferna/packtpub/mastering/knn/parallel/individual/KnnClassifierParallelIndividual.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter03/NearestNeighbors/bin/com/javferna/packtpub/mastering/knn/serial/KnnClassifier.class" afterPath="$PROJECT_DIR$/Chapter03/C3-NearestNeighbors/bin/com/javferna/packtpub/mastering/knn/serial/KnnClassifier.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter06/GeneticAlgorithm/bin/com/javferna/packtpub/mastering/geneticAlgorithm/common/DataLoader.class" afterPath="$PROJECT_DIR$/Chapter06/C6-GeneticAlgorithm/bin/com/javferna/packtpub/mastering/geneticAlgorithm/common/DataLoader.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter06/GeneticAlgorithm/bin/com/javferna/packtpub/mastering/geneticAlgorithm/common/GeneticOperators.class" afterPath="$PROJECT_DIR$/Chapter06/C6-GeneticAlgorithm/bin/com/javferna/packtpub/mastering/geneticAlgorithm/common/GeneticOperators.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter06/GeneticAlgorithm/bin/com/javferna/packtpub/mastering/geneticAlgorithm/common/Individual.class" afterPath="$PROJECT_DIR$/Chapter06/C6-GeneticAlgorithm/bin/com/javferna/packtpub/mastering/geneticAlgorithm/common/Individual.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter06/GeneticAlgorithm/bin/com/javferna/packtpub/mastering/geneticAlgorithm/concurrent/ConcurrentGeneticAlgorithm.class" afterPath="$PROJECT_DIR$/Chapter06/C6-GeneticAlgorithm/bin/com/javferna/packtpub/mastering/geneticAlgorithm/concurrent/ConcurrentGeneticAlgorithm.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter06/GeneticAlgorithm/bin/com/javferna/packtpub/mastering/geneticAlgorithm/concurrent/ConcurrentGeneticTask.class" afterPath="$PROJECT_DIR$/Chapter06/C6-GeneticAlgorithm/bin/com/javferna/packtpub/mastering/geneticAlgorithm/concurrent/ConcurrentGeneticTask.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter06/GeneticAlgorithm/bin/com/javferna/packtpub/mastering/geneticAlgorithm/concurrent/ConcurrentMain.class" afterPath="$PROJECT_DIR$/Chapter06/C6-GeneticAlgorithm/bin/com/javferna/packtpub/mastering/geneticAlgorithm/concurrent/ConcurrentMain.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter06/GeneticAlgorithm/bin/com/javferna/packtpub/mastering/geneticAlgorithm/concurrent/GeneticPhaser.class" afterPath="$PROJECT_DIR$/Chapter06/C6-GeneticAlgorithm/bin/com/javferna/packtpub/mastering/geneticAlgorithm/concurrent/GeneticPhaser.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter06/GeneticAlgorithm/bin/com/javferna/packtpub/mastering/geneticAlgorithm/concurrent/SharedData.class" afterPath="$PROJECT_DIR$/Chapter06/C6-GeneticAlgorithm/bin/com/javferna/packtpub/mastering/geneticAlgorithm/concurrent/SharedData.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter06/GeneticAlgorithm/bin/com/javferna/packtpub/mastering/geneticAlgorithm/serial/SerialGeneticAlgorithm.class" afterPath="$PROJECT_DIR$/Chapter06/C6-GeneticAlgorithm/bin/com/javferna/packtpub/mastering/geneticAlgorithm/serial/SerialGeneticAlgorithm.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter06/GeneticAlgorithm/bin/com/javferna/packtpub/mastering/geneticAlgorithm/serial/SerialMain.class" afterPath="$PROJECT_DIR$/Chapter06/C6-GeneticAlgorithm/bin/com/javferna/packtpub/mastering/geneticAlgorithm/serial/SerialMain.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter07/KMeansClustering/bin/com/javferna/packtpub/mastering/kmeans/common/data/DistanceMeasurer.class" afterPath="$PROJECT_DIR$/Chapter07/C7-KMeansClustering/bin/com/javferna/packtpub/mastering/kmeans/common/data/DistanceMeasurer.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter07/KMeansClustering/bin/com/javferna/packtpub/mastering/kmeans/common/data/VocabularyLoader.class" afterPath="$PROJECT_DIR$/Chapter07/C7-KMeansClustering/bin/com/javferna/packtpub/mastering/kmeans/common/data/VocabularyLoader.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter07/KMeansClustering/bin/com/javferna/packtpub/mastering/kmeans/common/data/Word.class" afterPath="$PROJECT_DIR$/Chapter07/C7-KMeansClustering/bin/com/javferna/packtpub/mastering/kmeans/common/data/Word.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter07/KMeansClustering/bin/com/javferna/packtpub/mastering/kmeans/concurrent/AssignmentTask.class" afterPath="$PROJECT_DIR$/Chapter07/C7-KMeansClustering/bin/com/javferna/packtpub/mastering/kmeans/concurrent/AssignmentTask.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter07/KMeansClustering/bin/com/javferna/packtpub/mastering/kmeans/concurrent/ConcurrentKMeans.class" afterPath="$PROJECT_DIR$/Chapter07/C7-KMeansClustering/bin/com/javferna/packtpub/mastering/kmeans/concurrent/ConcurrentKMeans.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter07/KMeansClustering/bin/com/javferna/packtpub/mastering/kmeans/concurrent/ConcurrentMain.class" afterPath="$PROJECT_DIR$/Chapter07/C7-KMeansClustering/bin/com/javferna/packtpub/mastering/kmeans/concurrent/ConcurrentMain.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter07/KMeansClustering/bin/com/javferna/packtpub/mastering/kmeans/concurrent/UpdateTask.class" afterPath="$PROJECT_DIR$/Chapter07/C7-KMeansClustering/bin/com/javferna/packtpub/mastering/kmeans/concurrent/UpdateTask.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter07/KMeansClustering/bin/com/javferna/packtpub/mastering/kmeans/serial/Document.class" afterPath="$PROJECT_DIR$/Chapter07/C7-KMeansClustering/bin/com/javferna/packtpub/mastering/kmeans/serial/Document.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter07/KMeansClustering/bin/com/javferna/packtpub/mastering/kmeans/serial/DocumentCluster.class" afterPath="$PROJECT_DIR$/Chapter07/C7-KMeansClustering/bin/com/javferna/packtpub/mastering/kmeans/serial/DocumentCluster.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter07/KMeansClustering/bin/com/javferna/packtpub/mastering/kmeans/serial/DocumentLoader.class" afterPath="$PROJECT_DIR$/Chapter07/C7-KMeansClustering/bin/com/javferna/packtpub/mastering/kmeans/serial/DocumentLoader.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter07/KMeansClustering/bin/com/javferna/packtpub/mastering/kmeans/serial/SerialKMeans.class" afterPath="$PROJECT_DIR$/Chapter07/C7-KMeansClustering/bin/com/javferna/packtpub/mastering/kmeans/serial/SerialKMeans.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter07/KMeansClustering/bin/com/javferna/packtpub/mastering/kmeans/serial/SerialMain.class" afterPath="$PROJECT_DIR$/Chapter07/C7-KMeansClustering/bin/com/javferna/packtpub/mastering/kmeans/serial/SerialMain.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter07/KMeansClustering/data/movies.data" afterPath="$PROJECT_DIR$/Chapter07/C7-KMeansClustering/data/movies.data" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter07/KMeansClustering/data/movies.words" afterPath="$PROJECT_DIR$/Chapter07/C7-KMeansClustering/data/movies.words" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter07/MergeSort/bin/com/javferna/packtpub/mastering/mergeSort/common/AmazonMetaData.class" afterPath="$PROJECT_DIR$/Chapter07/C7-MergeSort/bin/com/javferna/packtpub/mastering/mergeSort/common/AmazonMetaData.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter07/MergeSort/bin/com/javferna/packtpub/mastering/mergeSort/common/AmazonMetaDataLoader.class" afterPath="$PROJECT_DIR$/Chapter07/C7-MergeSort/bin/com/javferna/packtpub/mastering/mergeSort/common/AmazonMetaDataLoader.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter07/MergeSort/bin/com/javferna/packtpub/mastering/mergeSort/concurrent/ConcurrentMergeSort.class" afterPath="$PROJECT_DIR$/Chapter07/C7-MergeSort/bin/com/javferna/packtpub/mastering/mergeSort/concurrent/ConcurrentMergeSort.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter07/MergeSort/bin/com/javferna/packtpub/mastering/mergeSort/concurrent/ConcurrentMetaData.class" afterPath="$PROJECT_DIR$/Chapter07/C7-MergeSort/bin/com/javferna/packtpub/mastering/mergeSort/concurrent/ConcurrentMetaData.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter07/MergeSort/bin/com/javferna/packtpub/mastering/mergeSort/concurrent/MergeSortTask.class" afterPath="$PROJECT_DIR$/Chapter07/C7-MergeSort/bin/com/javferna/packtpub/mastering/mergeSort/concurrent/MergeSortTask.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter07/MergeSort/bin/com/javferna/packtpub/mastering/mergeSort/serial/SerialMergeSort.class" afterPath="$PROJECT_DIR$/Chapter07/C7-MergeSort/bin/com/javferna/packtpub/mastering/mergeSort/serial/SerialMergeSort.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter07/MergeSort/bin/com/javferna/packtpub/mastering/mergeSort/serial/SerialMetaData.class" afterPath="$PROJECT_DIR$/Chapter07/C7-MergeSort/bin/com/javferna/packtpub/mastering/mergeSort/serial/SerialMetaData.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter07/ObjectFilter/bin/com/javferna/packtpub/mastering/objectFilter/common/data/CensusData.class" afterPath="$PROJECT_DIR$/Chapter07/C7-ObjectFilter/bin/com/javferna/packtpub/mastering/objectFilter/common/data/CensusData.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter07/ObjectFilter/bin/com/javferna/packtpub/mastering/objectFilter/common/data/CensusDataLoader.class" afterPath="$PROJECT_DIR$/Chapter07/C7-ObjectFilter/bin/com/javferna/packtpub/mastering/objectFilter/common/data/CensusDataLoader.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter07/ObjectFilter/bin/com/javferna/packtpub/mastering/objectFilter/common/data/Filter.class" afterPath="$PROJECT_DIR$/Chapter07/C7-ObjectFilter/bin/com/javferna/packtpub/mastering/objectFilter/common/data/Filter.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter07/ObjectFilter/bin/com/javferna/packtpub/mastering/objectFilter/common/data/FilterData.class" afterPath="$PROJECT_DIR$/Chapter07/C7-ObjectFilter/bin/com/javferna/packtpub/mastering/objectFilter/common/data/FilterData.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter07/ObjectFilter/bin/com/javferna/packtpub/mastering/objectFilter/concurrent/ConcurrentMain.class" afterPath="$PROJECT_DIR$/Chapter07/C7-ObjectFilter/bin/com/javferna/packtpub/mastering/objectFilter/concurrent/ConcurrentMain.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter07/ObjectFilter/bin/com/javferna/packtpub/mastering/objectFilter/concurrent/ConcurrentSearch.class" afterPath="$PROJECT_DIR$/Chapter07/C7-ObjectFilter/bin/com/javferna/packtpub/mastering/objectFilter/concurrent/ConcurrentSearch.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter07/ObjectFilter/bin/com/javferna/packtpub/mastering/objectFilter/concurrent/IndividualTask.class" afterPath="$PROJECT_DIR$/Chapter07/C7-ObjectFilter/bin/com/javferna/packtpub/mastering/objectFilter/concurrent/IndividualTask.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter07/ObjectFilter/bin/com/javferna/packtpub/mastering/objectFilter/concurrent/ListTask.class" afterPath="$PROJECT_DIR$/Chapter07/C7-ObjectFilter/bin/com/javferna/packtpub/mastering/objectFilter/concurrent/ListTask.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter07/ObjectFilter/bin/com/javferna/packtpub/mastering/objectFilter/concurrent/TaskManager.class" afterPath="$PROJECT_DIR$/Chapter07/C7-ObjectFilter/bin/com/javferna/packtpub/mastering/objectFilter/concurrent/TaskManager.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter07/ObjectFilter/bin/com/javferna/packtpub/mastering/objectFilter/serial/SerialMain.class" afterPath="$PROJECT_DIR$/Chapter07/C7-ObjectFilter/bin/com/javferna/packtpub/mastering/objectFilter/serial/SerialMain.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter07/ObjectFilter/bin/com/javferna/packtpub/mastering/objectFilter/serial/SerialSearch.class" afterPath="$PROJECT_DIR$/Chapter07/C7-ObjectFilter/bin/com/javferna/packtpub/mastering/objectFilter/serial/SerialSearch.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem.zip.001" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem.zip.001" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem.zip.002" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem.zip.002" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem.zip.003" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem.zip.003" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem.zip.004" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem.zip.004" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem.zip.005" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem.zip.005" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem.zip.006" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem.zip.006" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem.zip.007" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem.zip.007" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem.zip.008" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem.zip.008" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem.zip.009" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem.zip.009" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/bin/com/javferna/packtpub/mastering/irsystem/common/ContentMapper.class" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/bin/com/javferna/packtpub/mastering/irsystem/common/ContentMapper.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/bin/com/javferna/packtpub/mastering/irsystem/common/Document.class" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/bin/com/javferna/packtpub/mastering/irsystem/common/Document.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/bin/com/javferna/packtpub/mastering/irsystem/common/QueryResult.class" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/bin/com/javferna/packtpub/mastering/irsystem/common/QueryResult.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/bin/com/javferna/packtpub/mastering/irsystem/common/Token.class" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/bin/com/javferna/packtpub/mastering/irsystem/common/Token.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/bin/com/javferna/packtpub/mastering/irsystem/common/Utils.class" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/bin/com/javferna/packtpub/mastering/irsystem/common/Utils.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/bin/com/javferna/packtpub/mastering/irsystem/concurrent/ConcurrentData.class" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/bin/com/javferna/packtpub/mastering/irsystem/concurrent/ConcurrentData.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/bin/com/javferna/packtpub/mastering/irsystem/concurrent/ConcurrentFileLoader.class" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/bin/com/javferna/packtpub/mastering/irsystem/concurrent/ConcurrentFileLoader.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/bin/com/javferna/packtpub/mastering/irsystem/concurrent/ConcurrentInvertedIndex.class" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/bin/com/javferna/packtpub/mastering/irsystem/concurrent/ConcurrentInvertedIndex.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/bin/com/javferna/packtpub/mastering/irsystem/concurrent/ConcurrentMain.class" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/bin/com/javferna/packtpub/mastering/irsystem/concurrent/ConcurrentMain.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/bin/com/javferna/packtpub/mastering/irsystem/concurrent/ConcurrentSearch.class" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/bin/com/javferna/packtpub/mastering/irsystem/concurrent/ConcurrentSearch.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/bin/com/javferna/packtpub/mastering/irsystem/serial/SerialData.class" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/bin/com/javferna/packtpub/mastering/irsystem/serial/SerialData.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/bin/com/javferna/packtpub/mastering/irsystem/serial/SerialFileLoader.class" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/bin/com/javferna/packtpub/mastering/irsystem/serial/SerialFileLoader.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/bin/com/javferna/packtpub/mastering/irsystem/serial/SerialInvertedIndex.class" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/bin/com/javferna/packtpub/mastering/irsystem/serial/SerialInvertedIndex.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/bin/com/javferna/packtpub/mastering/irsystem/serial/SerialMain.class" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/bin/com/javferna/packtpub/mastering/irsystem/serial/SerialMain.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter08/IRSystem/bin/com/javferna/packtpub/mastering/irsystem/serial/SerialSearch.class" afterPath="$PROJECT_DIR$/C8-Chapter08/IRSystem/bin/com/javferna/packtpub/mastering/irsystem/serial/SerialSearch.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter08/NumericalSummarizationRetail.zip.001" afterPath="$PROJECT_DIR$/C8-Chapter08/NumericalSummarizationRetail.zip.001" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter08/NumericalSummarizationRetail/bin/com/javferna/packtpub/mastering/numericalSummarization/common/Invoice.class" afterPath="$PROJECT_DIR$/C8-Chapter08/NumericalSummarizationRetail/bin/com/javferna/packtpub/mastering/numericalSummarization/common/Invoice.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter08/NumericalSummarizationRetail/bin/com/javferna/packtpub/mastering/numericalSummarization/common/Record.class" afterPath="$PROJECT_DIR$/C8-Chapter08/NumericalSummarizationRetail/bin/com/javferna/packtpub/mastering/numericalSummarization/common/Record.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter08/NumericalSummarizationRetail/bin/com/javferna/packtpub/mastering/numericalSummarization/concurrent/data/ConcurrentDataLoader.class" afterPath="$PROJECT_DIR$/C8-Chapter08/NumericalSummarizationRetail/bin/com/javferna/packtpub/mastering/numericalSummarization/concurrent/data/ConcurrentDataLoader.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter08/NumericalSummarizationRetail/bin/com/javferna/packtpub/mastering/numericalSummarization/concurrent/data/ConcurrentStatistics.class" afterPath="$PROJECT_DIR$/C8-Chapter08/NumericalSummarizationRetail/bin/com/javferna/packtpub/mastering/numericalSummarization/concurrent/data/ConcurrentStatistics.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter08/NumericalSummarizationRetail/bin/com/javferna/packtpub/mastering/numericalSummarization/concurrent/main/ConcurrentMain.class" afterPath="$PROJECT_DIR$/C8-Chapter08/NumericalSummarizationRetail/bin/com/javferna/packtpub/mastering/numericalSummarization/concurrent/main/ConcurrentMain.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter08/NumericalSummarizationRetail/bin/com/javferna/packtpub/mastering/numericalSummarization/main/Main.class" afterPath="$PROJECT_DIR$/C8-Chapter08/NumericalSummarizationRetail/bin/com/javferna/packtpub/mastering/numericalSummarization/main/Main.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter08/NumericalSummarizationRetail/bin/com/javferna/packtpub/mastering/numericalSummarization/serial/data/SerialDataLoader.class" afterPath="$PROJECT_DIR$/C8-Chapter08/NumericalSummarizationRetail/bin/com/javferna/packtpub/mastering/numericalSummarization/serial/data/SerialDataLoader.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter08/NumericalSummarizationRetail/bin/com/javferna/packtpub/mastering/numericalSummarization/serial/data/SerialStatistics.class" afterPath="$PROJECT_DIR$/C8-Chapter08/NumericalSummarizationRetail/bin/com/javferna/packtpub/mastering/numericalSummarization/serial/data/SerialStatistics.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter08/NumericalSummarizationRetail/bin/com/javferna/packtpub/mastering/numericalSummarization/serial/main/SerialMain.class" afterPath="$PROJECT_DIR$/C8-Chapter08/NumericalSummarizationRetail/bin/com/javferna/packtpub/mastering/numericalSummarization/serial/main/SerialMain.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter10/EventNotificationSystem/bin/com/javferna/packtpub/mastering/eventNotification/consumer/Consumer.class" afterPath="$PROJECT_DIR$/Chapter10/C10-EventNotificationSystem/bin/com/javferna/packtpub/mastering/eventNotification/consumer/Consumer.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter10/EventNotificationSystem/bin/com/javferna/packtpub/mastering/eventNotification/data/Event.class" afterPath="$PROJECT_DIR$/Chapter10/C10-EventNotificationSystem/bin/com/javferna/packtpub/mastering/eventNotification/data/Event.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter10/EventNotificationSystem/bin/com/javferna/packtpub/mastering/eventNotification/main/Main.class" afterPath="$PROJECT_DIR$/Chapter10/C10-EventNotificationSystem/bin/com/javferna/packtpub/mastering/eventNotification/main/Main.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter10/EventNotificationSystem/bin/com/javferna/packtpub/mastering/eventNotification/producer/Producer.class" afterPath="$PROJECT_DIR$/Chapter10/C10-EventNotificationSystem/bin/com/javferna/packtpub/mastering/eventNotification/producer/Producer.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter10/NewsNotificationSystem/bin/com/javferna/packtpub/mastering/newsNotification/consumer/Consumer.class" afterPath="$PROJECT_DIR$/Chapter10/C10-NewsNotificationSystem/bin/com/javferna/packtpub/mastering/newsNotification/consumer/Consumer.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter10/NewsNotificationSystem/bin/com/javferna/packtpub/mastering/newsNotification/data/News.class" afterPath="$PROJECT_DIR$/Chapter10/C10-NewsNotificationSystem/bin/com/javferna/packtpub/mastering/newsNotification/data/News.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter10/NewsNotificationSystem/bin/com/javferna/packtpub/mastering/newsNotification/main/Main.class" afterPath="$PROJECT_DIR$/Chapter10/C10-NewsNotificationSystem/bin/com/javferna/packtpub/mastering/newsNotification/main/Main.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter10/NewsNotificationSystem/bin/com/javferna/packtpub/mastering/newsNotification/publisher/ConsumerData.class" afterPath="$PROJECT_DIR$/Chapter10/C10-NewsNotificationSystem/bin/com/javferna/packtpub/mastering/newsNotification/publisher/ConsumerData.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter10/NewsNotificationSystem/bin/com/javferna/packtpub/mastering/newsNotification/publisher/MyPublisher.class" afterPath="$PROJECT_DIR$/Chapter10/C10-NewsNotificationSystem/bin/com/javferna/packtpub/mastering/newsNotification/publisher/MyPublisher.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter10/NewsNotificationSystem/bin/com/javferna/packtpub/mastering/newsNotification/publisher/MySubscription.class" afterPath="$PROJECT_DIR$/Chapter10/C10-NewsNotificationSystem/bin/com/javferna/packtpub/mastering/newsNotification/publisher/MySubscription.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter10/NewsNotificationSystem/bin/com/javferna/packtpub/mastering/newsNotification/publisher/PublisherTask.class" afterPath="$PROJECT_DIR$/Chapter10/C10-NewsNotificationSystem/bin/com/javferna/packtpub/mastering/newsNotification/publisher/PublisherTask.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/bin/com/javferna/packtpub/book/mastering/structures/atomic/java8/ConcurrentMainAtomic.class" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/bin/com/javferna/packtpub/book/mastering/structures/atomic/java8/ConcurrentMainAtomic.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/bin/com/javferna/packtpub/book/mastering/structures/collection/java8/ConcurrentCollectionMainAmazon.class" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/bin/com/javferna/packtpub/book/mastering/structures/collection/java8/ConcurrentCollectionMainAmazon.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/bin/com/javferna/packtpub/book/mastering/structures/collection/java8/ConcurrentSpliteratorMain.class" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/bin/com/javferna/packtpub/book/mastering/structures/collection/java8/ConcurrentSpliteratorMain.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/bin/com/javferna/packtpub/book/mastering/structures/collection/java8/SpliteratorTask.class" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/bin/com/javferna/packtpub/book/mastering/structures/collection/java8/SpliteratorTask.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/bin/com/javferna/packtpub/book/mastering/structures/compare/Item.class" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/bin/com/javferna/packtpub/book/mastering/structures/compare/Item.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/bin/com/javferna/packtpub/book/mastering/structures/compare/blocking/BlockingConsumer.class" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/bin/com/javferna/packtpub/book/mastering/structures/compare/blocking/BlockingConsumer.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/bin/com/javferna/packtpub/book/mastering/structures/compare/blocking/BlockingMain.class" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/bin/com/javferna/packtpub/book/mastering/structures/compare/blocking/BlockingMain.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/bin/com/javferna/packtpub/book/mastering/structures/compare/blocking/BlockingProducer.class" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/bin/com/javferna/packtpub/book/mastering/structures/compare/blocking/BlockingProducer.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/bin/com/javferna/packtpub/book/mastering/structures/compare/nonblocking/NonBlockingConsumer.class" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/bin/com/javferna/packtpub/book/mastering/structures/compare/nonblocking/NonBlockingConsumer.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/bin/com/javferna/packtpub/book/mastering/structures/compare/nonblocking/NonBlockingMain.class" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/bin/com/javferna/packtpub/book/mastering/structures/compare/nonblocking/NonBlockingMain.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/bin/com/javferna/packtpub/book/mastering/structures/compare/nonblocking/NonBlockingProducer.class" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/bin/com/javferna/packtpub/book/mastering/structures/compare/nonblocking/NonBlockingProducer.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/bin/com/javferna/packtpub/book/mastering/structures/hash/data/BasicProduct.class" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/bin/com/javferna/packtpub/book/mastering/structures/hash/data/BasicProduct.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/bin/com/javferna/packtpub/book/mastering/structures/hash/data/BasicProductLoader.class" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/bin/com/javferna/packtpub/book/mastering/structures/hash/data/BasicProductLoader.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/bin/com/javferna/packtpub/book/mastering/structures/hash/data/BasicReview.class" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/bin/com/javferna/packtpub/book/mastering/structures/hash/data/BasicReview.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/bin/com/javferna/packtpub/book/mastering/structures/hash/data/ConcurrentLoaderAccumulator.class" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/bin/com/javferna/packtpub/book/mastering/structures/hash/data/ConcurrentLoaderAccumulator.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/bin/com/javferna/packtpub/book/mastering/structures/hash/data/ExtendedProduct.class" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/bin/com/javferna/packtpub/book/mastering/structures/hash/data/ExtendedProduct.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/bin/com/javferna/packtpub/book/mastering/structures/hash/data/IntermediateResultIndex.class" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/bin/com/javferna/packtpub/book/mastering/structures/hash/data/IntermediateResultIndex.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/bin/com/javferna/packtpub/book/mastering/structures/hash/data/Product.class" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/bin/com/javferna/packtpub/book/mastering/structures/hash/data/Product.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/bin/com/javferna/packtpub/book/mastering/structures/hash/data/ProductLoader.class" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/bin/com/javferna/packtpub/book/mastering/structures/hash/data/ProductLoader.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/bin/com/javferna/packtpub/book/mastering/structures/hash/data/Review.class" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/bin/com/javferna/packtpub/book/mastering/structures/hash/data/Review.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/bin/com/javferna/packtpub/book/mastering/structures/hash/java8/ConcurrentHashMainAmazon.class" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/bin/com/javferna/packtpub/book/mastering/structures/hash/java8/ConcurrentHashMainAmazon.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/bin/com/javferna/packtpub/book/mastering/structures/hash/java8/ConcurrentHashMainBasicAmazon.class" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/bin/com/javferna/packtpub/book/mastering/structures/hash/java8/ConcurrentHashMainBasicAmazon.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/bin/com/javferna/packtpub/book/mastering/structures/varhandle/VarHandleData.class" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/bin/com/javferna/packtpub/book/mastering/structures/varhandle/VarHandleData.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/bin/com/javferna/packtpub/book/mastering/structures/varhandle/VarHandleMain.class" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/bin/com/javferna/packtpub/book/mastering/structures/varhandle/VarHandleMain.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/bin/com/javferna/packtpub/book/mastering/structures/varhandle/VarHandleTask.class" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/bin/com/javferna/packtpub/book/mastering/structures/varhandle/VarHandleTask.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/DataStructures/data.zip" afterPath="$PROJECT_DIR$/Chapter11/C11-DataStructures/data.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/barrier/BarrierMain.class" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/barrier/BarrierMain.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/barrier/BarrierTask.class" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/barrier/BarrierTask.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/barrier/FinishBarrierTask.class" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/barrier/FinishBarrierTask.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/common/CommonTask.class" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/common/CommonTask.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/completable/CompletableMain.class" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/completable/CompletableMain.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/completable/CompletableTask.class" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/completable/CompletableTask.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/completable/LoadTask.class" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/completable/LoadTask.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/completable/SearchTask.class" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/completable/SearchTask.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/completable/WriteTask.class" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/completable/WriteTask.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/countdown/CountDownMain.class" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/countdown/CountDownMain.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/countdown/CountDownTask.class" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/countdown/CountDownTask.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/data/Product.class" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/data/Product.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/data/ProductLoader.class" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/data/ProductLoader.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/data/Review.class" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/data/Review.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/lock/LockMain.class" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/lock/LockMain.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/lock/LockTask.class" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/lock/LockTask.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/semaphore/SemaphoreMain.class" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/semaphore/SemaphoreMain.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/semaphore/SemaphoreTask.class" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/bin/com/javferna/packtpub/book/mastering/synchronization/semaphore/SemaphoreTask.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter11/Synchronization/data.zip" afterPath="$PROJECT_DIR$/Chapter11/C11-Synchronization/data.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter12/B05875EN_12_code/Chapter12/TestInformation/src/com/javferna/packtpub/book/mastering/test/common/CommonForkTask.java" afterPath="$PROJECT_DIR$/Chapter12/B05875EN_12_code/Chapter12/TestInformation/src/com/javferna/packtpub/book/mastering/test/common/CommonForkTask.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter12/B05875EN_12_code/Chapter12/TestInformation/src/com/javferna/packtpub/book/mastering/test/common/CommonLockTask.java" afterPath="$PROJECT_DIR$/Chapter12/B05875EN_12_code/Chapter12/TestInformation/src/com/javferna/packtpub/book/mastering/test/common/CommonLockTask.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter12/B05875EN_12_code/Chapter12/TestInformation/src/com/javferna/packtpub/book/mastering/test/common/CommonPhaserTask.java" afterPath="$PROJECT_DIR$/Chapter12/B05875EN_12_code/Chapter12/TestInformation/src/com/javferna/packtpub/book/mastering/test/common/CommonPhaserTask.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter12/B05875EN_12_code/Chapter12/TestInformation/src/com/javferna/packtpub/book/mastering/test/common/CommonTask.java" afterPath="$PROJECT_DIR$/Chapter12/B05875EN_12_code/Chapter12/TestInformation/src/com/javferna/packtpub/book/mastering/test/common/CommonTask.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter12/B05875EN_12_code/Chapter12/TestInformation/src/com/javferna/packtpub/book/mastering/test/executor/MainExecutor.java" afterPath="$PROJECT_DIR$/Chapter12/B05875EN_12_code/Chapter12/TestInformation/src/com/javferna/packtpub/book/mastering/test/executor/MainExecutor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter12/B05875EN_12_code/Chapter12/TestInformation/src/com/javferna/packtpub/book/mastering/test/fork/MainFork.java" afterPath="$PROJECT_DIR$/Chapter12/B05875EN_12_code/Chapter12/TestInformation/src/com/javferna/packtpub/book/mastering/test/fork/MainFork.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter12/B05875EN_12_code/Chapter12/TestInformation/src/com/javferna/packtpub/book/mastering/test/lock/MainLock.java" afterPath="$PROJECT_DIR$/Chapter12/B05875EN_12_code/Chapter12/TestInformation/src/com/javferna/packtpub/book/mastering/test/lock/MainLock.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter12/B05875EN_12_code/Chapter12/TestInformation/src/com/javferna/packtpub/book/mastering/test/lock/MyLock.java" afterPath="$PROJECT_DIR$/Chapter12/B05875EN_12_code/Chapter12/TestInformation/src/com/javferna/packtpub/book/mastering/test/lock/MyLock.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter12/B05875EN_12_code/Chapter12/TestInformation/src/com/javferna/packtpub/book/mastering/test/phaser/MainPhaser.java" afterPath="$PROJECT_DIR$/Chapter12/B05875EN_12_code/Chapter12/TestInformation/src/com/javferna/packtpub/book/mastering/test/phaser/MainPhaser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter12/B05875EN_12_code/Chapter12/TestInformation/src/com/javferna/packtpub/book/mastering/test/stream/MainStream.java" afterPath="$PROJECT_DIR$/Chapter12/B05875EN_12_code/Chapter12/TestInformation/src/com/javferna/packtpub/book/mastering/test/stream/MainStream.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter12/B05875EN_12_code/Chapter12/TestInformation/src/com/javferna/packtpub/book/mastering/test/thread/MainThread.java" afterPath="$PROJECT_DIR$/Chapter12/B05875EN_12_code/Chapter12/TestInformation/src/com/javferna/packtpub/book/mastering/test/thread/MainThread.java" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Chapter08.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C8-Chapter08/Chapter08.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter02/C2-FileSearch/src/com/javferna/packtpub/mastering/filesearch/main/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Result.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter02/C2-FileSearch/src/com/javferna/packtpub/mastering/filesearch/utils/Result.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+              <folding>
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParallelGroupFileSearch.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter02/C2-FileSearch/src/com/javferna/packtpub/mastering/filesearch/parallel/group/ParallelGroupFileSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="26" column="36" lean-forward="false" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParallelGroupFileTask.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter02/C2-FileSearch/src/com/javferna/packtpub/mastering/filesearch/parallel/group/ParallelGroupFileTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="26" column="46" lean-forward="false" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Chapter02/C2-FileSearch/src/com/javferna/packtpub/mastering/filesearch/main/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="2560" />
+    <option name="height" value="1350" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BookConcurrencySamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C2-FileSearch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BookConcurrencySamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C2-FileSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BookConcurrencySamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C2-FileSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="filesearch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BookConcurrencySamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C2-FileSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="filesearch" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BookConcurrencySamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C2-FileSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="filesearch" type="462c0819:PsiDirectoryNode" />
+              <item name="group" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BookConcurrencySamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C2-FileSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="filesearch" type="462c0819:PsiDirectoryNode" />
+              <item name="serial" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BookConcurrencySamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C2-FileSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="filesearch" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.javferna.packtpub.mastering.filesearch.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.javferna.packtpub.mastering.filesearch.main.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="FileSearch" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5f10a0f-0825-46eb-bce2-9d06f3135a2a" name="Default" comment="" />
+      <created>1518713024087</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1518713024087</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="2560" height="1350" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4119522" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3991263" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24980143" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41593626" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Chapter02/C2-FileSearch/src/com/javferna/packtpub/mastering/filesearch/main/Main.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Chapter02/C2-FileSearch/src/com/javferna/packtpub/mastering/filesearch/parallel/group/ParallelGroupFileSearch.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Chapter02/C2-FileSearch/src/com/javferna/packtpub/mastering/filesearch/parallel/group/ParallelGroupFileSearch.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Chapter02/C2-FileSearch/src/com/javferna/packtpub/mastering/filesearch/main/Main.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="12" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/C8-Chapter08/Chapter08.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02/C2-FileSearch/src/com/javferna/packtpub/mastering/filesearch/utils/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02/C2-FileSearch/src/com/javferna/packtpub/mastering/filesearch/parallel/group/ParallelGroupFileSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02/C2-FileSearch/src/com/javferna/packtpub/mastering/filesearch/parallel/group/ParallelGroupFileTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02/C2-FileSearch/src/com/javferna/packtpub/mastering/filesearch/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C8-Chapter08/Chapter08.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02/C2-FileSearch/src/com/javferna/packtpub/mastering/filesearch/utils/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02/C2-FileSearch/src/com/javferna/packtpub/mastering/filesearch/parallel/group/ParallelGroupFileSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" column="36" lean-forward="false" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02/C2-FileSearch/src/com/javferna/packtpub/mastering/filesearch/parallel/group/ParallelGroupFileTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="26" column="46" lean-forward="false" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter02/C2-FileSearch/src/com/javferna/packtpub/mastering/filesearch/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
